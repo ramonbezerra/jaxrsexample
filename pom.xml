@@ -76,6 +76,22 @@
                 <version>2.5.1</version>
                 <inherited>true</inherited>
                 <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
                     <archive>
                     <manifest>
                         <addClasspath>true</addClasspath>
