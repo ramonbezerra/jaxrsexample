@@ -1,1 +1,1 @@
-web: java -jar target/java-getting-started-1.0.jar -Dserver.port=$PORT -cp target/classes:target/dependency/* br.edu.uepb.example.Main
+web: java -jar target/jaxrsexample-1.0-SNAPSHOT.jar -Dserver.port=$PORT -cp target/classes:target/dependency/* br.edu.uepb.example.Main
